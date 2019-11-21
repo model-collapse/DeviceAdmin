@@ -1,0 +1,29 @@
+{
+    "database": {
+        "default": {
+            "host": "127.0.0.1",
+            "port": "3306",
+            "user": "root",
+            "pwd": "",
+            "name": "demo",
+            "max_idle_con": 50,
+            "max_open_con": 150,
+            "driver": "mysql"
+        }
+    },
+    "prefix": "admin",
+    "store": {
+        "path": "./uploads",
+        "prefix": "uploads"
+    },
+    "language": "en",
+    "debug": true,
+    "info_log": "./logs/info.log",
+    "access_log": "./logs/access.log",
+    "error_log": "./logs/error.log",
+    "color_scheme": "skin-black",
+    "logo": "<b>We</b>OnPrem",
+    "mini_logo": "<img src=\"https://d33wubrfki0l68.cloudfront.net/7f86f187179a8eed9a9830a7dec53b7bddae077a/a0ce7/img/svg/we-logo.svg\" height=\"30\"/>",
+    "login_title": "OnPrem AI Admin",
+    "login_logo": "<img src=\"https://d33wubrfki0l68.cloudfront.net/7f86f187179a8eed9a9830a7dec53b7bddae077a/a0ce7/img/svg/we-logo.svg\" height=\"30\"/>"
+}

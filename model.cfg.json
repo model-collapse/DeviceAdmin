@@ -1,0 +1,7 @@
+{
+    "mock": 1, 
+    "use_playground": 1,
+    "root_name": "root",
+    "max_history_units": 100,
+    "update_interval": 5000
+}
