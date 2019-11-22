@@ -6,10 +6,11 @@ import (
 	"log"
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	//_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	_ "github.com/GoAdminGroup/themes/adminlte"
 	_ "github.com/GoAdminGroup/themes/sword"
+	_ "github.com/mattn/go-sqlite3"
 
 	template2 "html/template"
 	"net/http"
