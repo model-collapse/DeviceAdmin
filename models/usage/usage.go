@@ -63,7 +63,7 @@ type DeviceStatus struct {
 }
 
 func (d *DeviceStatus) HealthyScore() (ret int) {
-	if time.Now().Sub(d.LastHeartBeat) > time.Second*20 {
+	if time.Now().Sub(d.LastHeartBeat) > time.Second*300 {
 		return -1
 	}
 
