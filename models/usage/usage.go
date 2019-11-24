@@ -59,7 +59,7 @@ type DeviceStatus struct {
 	MemoryCap int `zk:"mem_cap"`
 
 	// heart beat
-	LastHeartBeat time.Time `zk:"heatbeat"`
+	LastHeartBeat time.Time `zk:"heartbeat"`
 }
 
 func (d *DeviceStatus) HealthyScore() (ret int) {

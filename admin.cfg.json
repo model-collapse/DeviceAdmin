@@ -8,8 +8,7 @@
             "name": "demo",
             "max_idle_con": 50,
             "max_open_con": 150,
-            "driver": "sqlite",
-            "file": "admin.lite.db"
+            "driver": "mysql"
         }
     },
     "prefix": "admin",
